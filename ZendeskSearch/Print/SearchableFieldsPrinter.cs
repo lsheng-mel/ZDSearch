@@ -17,52 +17,6 @@ namespace ZendeskSearch.Print
             // var headerThickness = new LineThickness(LineWidth.None, LineWidth.None);
 
             var doc = new Document(
-                // new Grid
-                // {
-                //     Color = ConsoleColor.Gray,
-                //     Columns = { GridLength.Auto },
-                //     Children =
-                //     {
-                //         new Cell("Search Users with") { Stroke = headerThickness, Color = ConsoleColor.DarkBlue, Align = Align.Center},
-                //         typeof(User).GetProperties().Select(p => new[]
-                //         {
-                //             new Cell(p.Name) {Align = Align.Left}
-                //         })
-                //     },
-                //     Width = 80
-                // },
-                // new Grid
-                // {
-                //     Color = ConsoleColor.Gray,
-                //     Columns = { GridLength.Auto },
-                //     Children =
-                //     {
-                //         new Cell("Search Tickets with") { Stroke = headerThickness, Color = ConsoleColor.DarkBlue, Align = Align.Center},
-                //         typeof(Ticket).GetProperties().Select(p => new[]
-                //         {
-                //             new Cell(p.Name) {Align = Align.Left}
-                //         })
-                //     },
-                //     Width = 80
-                // },
-                // new Grid
-                // {
-                //     Color = ConsoleColor.Gray,
-                //     Columns = { GridLength.Auto },
-                //     Children =
-                //     {
-                //         new Cell("Search Organizations with") { Stroke = headerThickness, Color = ConsoleColor.DarkBlue, Align = Align.Center},
-                //         typeof(Organization).GetProperties().Select(p => new[]
-                //         {
-                //             new Cell(p.Name) {Align = Align.Left, Stroke = new LineThickness(LineWidth.None, LineWidth.None)}
-                //         })
-                //     },
-                //     Width = 80
-                // }
-                // CreateDiv<User>("Search Users with:"),
-                // CreateDiv<Ticket>("Search Tickets with:"),
-                // CreateDiv<Organization>("Search Organizations with:")
-                
                 CreateGrid<User>("Search Users with:"),
                 CreateGrid<Ticket>("Search Tickets with:"),
                 CreateGrid<Organization>("Search Organizations with:")

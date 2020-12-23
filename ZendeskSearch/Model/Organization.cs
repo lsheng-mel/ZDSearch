@@ -14,10 +14,5 @@ namespace ZendeskSearch.Model
         public string Details { get; set; }
         public bool Shared_tickets { get; set; }
         public IEnumerable<string> Tags { get; set; }
-        
-        public override void Print()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

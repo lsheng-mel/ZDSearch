@@ -48,7 +48,5 @@ namespace ZendeskSearch.Model
             return property.GetValue(this)?.ToString()
                 ?.Equals(searchValue, StringComparison.InvariantCultureIgnoreCase) ?? false;
         }
-
-        public abstract void Print();
     }
 }

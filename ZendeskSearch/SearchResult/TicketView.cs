@@ -10,8 +10,8 @@ namespace ZendeskSearch.SearchResult
         public string submitter { get; set; }
         public string assignee { get; set; }
         public string organization_name { get; set; }
-        
-        public override void Print()
+
+        public void Print()
         {
             SearchResultPrinter.Print(this);
         }

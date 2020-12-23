@@ -24,10 +24,5 @@ namespace ZendeskSearch.Model
         public IEnumerable<string> Tags { get; set; }
         public bool Suspended { get; set; }
         public string Role { get; set; }
-        
-        public override void Print()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

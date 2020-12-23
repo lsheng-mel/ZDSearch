@@ -10,7 +10,7 @@ namespace ZendeskSearch.SearchResult
         public IEnumerable<string> users { get; set; }
         public IEnumerable<string> tickets { get; set; }
 
-        public override void Print()
+        public void Print()
         {
             SearchResultPrinter.Print(this);
         }

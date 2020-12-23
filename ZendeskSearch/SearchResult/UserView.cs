@@ -10,7 +10,7 @@ namespace ZendeskSearch.SearchResult
         public string organization_name { get; set; }
         public List<string> submitted_tickets { get; set; }
         
-        public override void Print()
+        public void Print()
         {
             SearchResultPrinter.Print(this);
         }

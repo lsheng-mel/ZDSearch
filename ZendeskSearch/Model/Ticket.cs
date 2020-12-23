@@ -21,10 +21,5 @@ namespace ZendeskSearch.Model
         public bool Has_incidents { get; set; }
         public DateTime Due_at { get; set; }
         public string Via { get; set; }
-        
-        public override void Print()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
