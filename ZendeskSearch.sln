@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZendeskSearch", "ZendeskSearch\ZendeskSearch.csproj", "{4E0C3D38-904C-4E2B-BF3F-04CA6564E257}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZendeskSearchUnitTest", "ZendeskSearchUnitTest\ZendeskSearchUnitTest.csproj", "{3C294139-05D6-4130-87D8-FB7328685262}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E0C3D38-904C-4E2B-BF3F-04CA6564E257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E0C3D38-904C-4E2B-BF3F-04CA6564E257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E0C3D38-904C-4E2B-BF3F-04CA6564E257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E0C3D38-904C-4E2B-BF3F-04CA6564E257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C294139-05D6-4130-87D8-FB7328685262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C294139-05D6-4130-87D8-FB7328685262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C294139-05D6-4130-87D8-FB7328685262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C294139-05D6-4130-87D8-FB7328685262}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
