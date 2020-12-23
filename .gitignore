@@ -1,0 +1,6 @@
+.vs/
+.idea/
+ZendeskSearch/obj/
+ZendeskSearch/bin/
+ZendeskSearchUnitTest/obj/
+ZendeskSearchUnitTest/bin/
