@@ -5,20 +5,26 @@
 1. Download and install **Visual Studio Community 2019** via the link below
 
 	https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16&embed-exp=true
+	
+	> Make sure to tick on option ".net Desktop Application" during the installation.
 
 2. Open the solution file with Visual Studio:
 
 	> /ZendeskSearch/ZendeskSearch.sln
+	
+3. Restore Nuget Packages
 
-3. Build the solution within Visual Studio
+	> Right click on the solution and choose "Restore Nuget Packages".
+
+4. Build the solution within Visual Studio
 
 	> Right click on the solution and choose "Build Solution".
 
-4. Set the project **"ZendeskSearch"** as the startup project
+5. Set the project **"ZendeskSearch"** as the startup project
 
 	> Right click on the project **"ZendeskSearch"** and choose "Set as Startup Project".
 
-5. Run program
+6. Run program
 
 	> Press "F5" key.
 
